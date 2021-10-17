@@ -6,7 +6,7 @@ A simple work in progress gui based off the pysticks library by simondlevy. Stil
 
 ## Documentation
 ---
-
+* To First Run This Program open CMD. Then navigate to your folder. Change you directory to PySticks. Then tpye "python joyreporter.py" this will show all the buttons and axis on you controller.
 
 ## To Do
 ---
