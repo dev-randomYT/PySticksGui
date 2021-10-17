@@ -15,3 +15,4 @@ A simple work in progress gui based off the pysticks library by simondlevy. Stil
 * Needs A Easy Config That Isn't Trash.
 * Needs Config Tuning For OBS.
 * Need to figure out how to import the values.
+* Need to begin the main GUI
