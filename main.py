@@ -7,7 +7,7 @@ con = get_controller()
 
 throttle = con.getThrottle()
 yaw = con.getYaw()
-pitch = "Pitch: %+2.2f" % con.getPitch()
+pitch = "0 %+2.2f" % con.getPitch()
 roll = con.getPitch
 
 #Initiate PyGame
@@ -35,5 +35,5 @@ while True:
 
         break
 
-    pygame.draw.rect(surface, color, pygame.Rect(float(100, 100, 150 + float(pit), 105)))
+    pygame.draw.rect(surface, color, pygame.Rect(float(100, 100, 150 + float(pitch), 105)))
     pygame.display.flip()
