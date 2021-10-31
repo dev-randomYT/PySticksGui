@@ -37,19 +37,19 @@ while True:
 
         #draw the rectangles with dyamic sizes w1, h1, w2, h2
     pygame.draw.rect(surface, color1, pygame.Rect(100, 225, 600 * yaw, 50))
-    pygame.draw.rect(surface, colortxt, pygame.Rect(110, 225, 175, 150))
+    #pygame.draw.rect(surface, colortxt, pygame.Rect(100, 225, 145, 30))
 
     #Thorttle
     #draw the rectangles with dyamic sizes w1, h1, w2, h2
     pygame.draw.rect(surface, color2, pygame.Rect(100, 125, 600 * throttle, 50))
-    pygame.draw.rect(surface, colortxt, pygame.Rect(100, 125, 175, 150))
+    #pygame.draw.rect(surface, colortxt, pygame.Rect(100, 125, 145, 30))
 
     #Roll
     if roll < 0:
         roll = roll + roll * -2
 
     pygame.draw.rect(surface, color3, pygame.Rect(100, 325, 600 * roll, 50))
-    pygame.draw.rect(surface, colortxt, pygame.Rect(100, 325, 175, 150))
+    #pygame.draw.rect(surface, colortxt, pygame.Rect(100, 325, 145, 30))
 
     #Pitch
     if pitch < 0:
@@ -57,7 +57,7 @@ while True:
 
     #draw the rectangles with dyamic sizes w1, h1, w2, h2
     pygame.draw.rect(surface, color4, pygame.Rect(100, 425, 600 * pitch, 50))
-    pygame.draw.rect(surface, colortxt, pygame.Rect(100, 425, 175, 150))
+    #pygame.draw.rect(surface, colortxt, pygame.Rect(100, 425, 145, 30))
     pygame.display.flip()
 
     if keyboard.is_pressed('ctrl+q'):
